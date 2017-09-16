@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar4"
+    tools:context="com.example.android.munakoki.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Katumbu Gola"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/resep3"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bahan-Bahan : \n1. Jagung (1 kg)\n2. Gula Merah (1/2 kg)\n3. Garam (1 sdm)"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cara Pembuatan : \n1. Kupas jagung dari kulitnya dan bijinya dari tongkolnya (kulitnya jangan dibuang karena akan digunakan untuk mengukus adonan katumbu gola).\n2. Masukkan biji jagung tersebut ke dalam alat penumbuk. Kemudian ditumbuk menjadi adonan katumbu hingga halus.\n3. Setelah itu, masukkan gula merah dan sedikit garam lalu tumbuk lagi adonan agar rasanya lebih merata.\n4. Setelah itu, siapkan kulit jagung yang telah dikupas sebelumnya. Kemudian masukkkan adonan ke dalam kulit jagung tersebut.\n5. Masukkan adonan mulai dari tengah kemudian diplintir atau digulung hingga rapat.\n6. Jika sudah, kukus adonan selama 1 jam hingga adonan benar-benar masak.\n7. Setelah itu, keluarkan dan katumbu gola pun siap dihidangkan."
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kembali"
+            android:layout_gravity="left"/>
+
+    </LinearLayout>
+
+</ScrollView>

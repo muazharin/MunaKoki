@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar4"
+    tools:context="com.example.android.munakoki.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Kabuto"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/resep1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bahan-Bahan : \n1. Singkong\n2. Parutan Kelapa\n3. Air Bersih"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cara Pembuatan : \n1. Kulit singkong dikupas, dicuci denngan air lalu dijemur selama 3 hari sampai terlihat setengah kering.\n2. Setelah itu singkong disimpan dalam wadah tertutup selama 24 jam hingga warnanya berubah menjadi kehitaman (fermentasi)\n3. Singkong dijemur kembali hingga kering.\n4. Kemudian kulitnya dikikis menggunakan pisau kemudian dipotong-potong.\n5. Setelah itu direndam ke dalam air bersih selama 6-8 jam.\n6. Cuci singkong hingga bersih kemudian dikukus selama 1/2 jam (sampai matang).\n7. Kabuto siap disajikan."
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kembali"
+            android:layout_gravity="left"/>
+
+    </LinearLayout>
+
+</ScrollView>

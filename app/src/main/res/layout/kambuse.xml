@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar4"
+    tools:context="com.example.android.munakoki.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Kambuse"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/resep2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bahan-Bahan : \n1. Biji Jagung (1 liter)\n2. Kapur (2 sdm)\n3. Air Bersih"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cara Pembuatan : \n1. Masukkan biji jagung ke dalam priuk yang telah dicuci bersih dan tambahkan air seperti halnya memasak nasi (tinggi permukaan air kira-kira setengah jari dari permukaan jagung).\n2. Masak jagung di atas tungku atau kompor.\n3. Jika airnya mendidih, masukkan 1-2 sdm kapur.\n4. Didihkan lagi hingga airnya mendekati kering.\n5. Jika sudah maka tambahkan lagi air hingga semua biji jagung terendam.\n6. Selanjutnya kurangi nyala api tungku Anda, biarkan selama 1/2-1 jam. Untuk yang menggunakan kompor didihkan lagi 10-20 menit lalu didiamkan 1 jam.\n7. Bersihkan jagung dari kapur menggunakan air bersih.\n8. Kambuse siap santap."
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kembali"
+            android:layout_gravity="left"/>
+
+    </LinearLayout>
+
+</ScrollView>

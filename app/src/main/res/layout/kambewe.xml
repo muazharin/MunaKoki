@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gambar4"
+    tools:context="com.example.android.munakoki.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Kambewe"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/resep4"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Bahan-Bahan : \n1. Jagung Manis (1 kg)\n2. Kelapa Muda (1 buah)\n3. Gula Merah (250 gr)\n4. Tepung Hunkwe (1 bungkus)\n5. Garam (1/4 sdt)\n6. Air (500 ml)\n7. Daun Jagung secukupnya"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cara Pembuatan : \n1. Sisir/parut jagung dan kelapa muda.\n2. Rebus gula merah dengan 500 ml air mendidih hingga volumenya berkurang 50%.\n3. Blender sisiran jagung dengan air gula merah yang sudah direbus sebelumnya.\n4. Campurkan blender jagung + air gula, kelapa muda,tepung hunkwe dan garam. Kemudian aduk dengan menggunakan tangan dalam suatu wadah besar.\n5. Uleni dengan tangan.\n6. Bungkus 5 sdm adonan dengan daun jagung satu per satu hingga adonan habis.\n7. Panaskan kukusan sampai air mendidih lalu masukkan ke dalam kukusan selama kira-kira 20 menit.\n8. Kambewe siap dihidangkan."
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Kembali"
+            android:layout_gravity="left"/>
+
+    </LinearLayout>
+
+</ScrollView>
